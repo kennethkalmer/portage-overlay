@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # Q: is RDEPEND-only sufficient for a binary package, since we don't compile?
-DEPEND="dev-lang/erlang"
+DEPEND="dev-lang/erlang >=dev-python/simplejson-2.0.4"
 RDEPEND="${DEPEND}"
 
 src_install() {
