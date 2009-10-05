@@ -1,0 +1,11 @@
+My Gentoo Portage Overlay
+=========================
+
+Add the following to /etc/make.conf
+
+  PORTDIR_OVERLAY="/path/to/portage-overlay"
+
+Packages
+--------
+
+* net-misc/rabbitmq-server - RabbitMQ (http://www.rabbitmq.com)
