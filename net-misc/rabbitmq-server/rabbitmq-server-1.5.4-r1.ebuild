@@ -1,6 +1,6 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/rabbitmq-server/rabbitmq-server-1.5.4-r2.ebuild,v 1.1 2009/06/21 15:45:19 caleb Exp $
+# $Header: /var/cvsroot/gentoo-x86/net-misc/rabbitmq-server/rabbitmq-server-1.5.4-r1.ebuild,v 1.2 2009/04/23 03:37:16 mr_bones_ Exp $
 
 inherit eutils
 
@@ -13,8 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # Q: is RDEPEND-only sufficient for a binary package, since we don't compile?
-DEPEND="dev-lang/erlang
-	dev-python/simplejson"
+DEPEND="dev-lang/erlang"
 RDEPEND="${DEPEND}"
 
 src_install() {
